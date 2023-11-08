@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/styles/css/normalize.css" rel="stylesheet" />
+    <link href="assets/styles/css/main.css" rel="stylesheet" />
+    <link href="assets/styles/images/catcon2.png" rel="icon" />
+    <title>Donna Sallo</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <nav>
+        <button class="hamburger">☰</button>
+        <ul class="nav-links">
+            <img src="assets/styles/images/logo.png" alt="Donna Sallo logo" class="nav-logo"/>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="#action-button">Projects</a></li>
+            <li><a href="html/about.html">About</a></li>
+            <li>
+                <a href="https://www.canva.com/design/DAFxjIAvfDw/v9i5InIkq3eWmI_GcyuHKw/view?utm_content=DAFxjIAvfDw&utm_campaign=designshare&utm_medium=link&utm_source=editor">Resume</a>
+            </li>
+        </ul>
+    </nav>
+    
+    
+      <header></header>
+      <main>
+        <section class="intro">
+          <h1 id="greeting"></h1>
+          <p>
+            I'm a curious and driven computer science student dedicated to
+            creating digital <br />experiences that seamlessly blend form and
+            function. My goal is to create <br />intuitive and secure solutions
+            that prioritize the needs and safety of every user.
+          </p>
+          <section id="action-button">
+            <div class="action-button">
+              <a href="#footer">Let's get in touch!</a>
+            </div>
+          </section>
+          <div class="profile-pic">
+            <img
+              src="assets/styles/images/donna1.png"
+              alt="girl with dark hair and blue shirt"
+            />
+          </div>
+        </section>
+        <hr />
+        <hr />
+        <!--carousel-->
+        <section id="projects">
+          <div class="carousel-container">
+            <h3>Projects</h3>
+            <!--bägaren-->
+            <button class="carousel-btn-prev">
+              <img
+                src="assets/styles/images/previous.png"
+                alt="Previous Slide"
+              />
+              <!--pil till vänster-->
+            </button>
+
+            <ul class="carousel-slides">
+              <!--hanterar själva view/slide-->
+              <li class="carousel-slide">
+                <!--hanterar innehållet i varje view-->
+                <!--view/slide 1-->
+                <div class="preview-container">
+                  <img
+                    src="assets/styles/images/view3center.png"
+                    class="preview-image"
+                    alt="Preview of third view"
+                  />
+                </div>
+
+                <div class="image-wrapper">
+                  <a href="html/project1.html">
+                    <img
+                      src="assets/styles/images/view1center.png"
+                      class="center-image view1-center"
+                      alt="Center view of first slide"
+                    />
+                    <img
+                      src="assets/styles/images/view1shadow.png"
+                      class="center-image hover-view view1-hover"
+                      alt="Hover view of first slide"
+                    />
+                  </a>
+                </div>
+
+                <div class="preview-container">
+                  <img
+                    src="assets/styles/images/view2center.png"
+                    class="preview-image"
+                    alt="Preview of second view"
+                  />
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <!--view/slide 2-->
+                <div class="preview-container">
+                  <img
+                    src="assets/styles/images/view1center.png"
+                    class="preview-image"
+                    alt="Preview of first view"
+                  />
+                </div>
+
+                <div class="image-wrapper">
+                  <a href="html/project2.html">
+                    <img
+                      src="assets/styles/images/view2center.png"
+                      class="center-image view2-center"
+                      alt="Center view of second slide"
+                    />
+                    <img
+                      src="assets/styles/images/view2shadow.png"
+                      class="center-image hover-view view2-hover"
+                      alt="Hover view of second slide"
+                    />
+                  </a>
+                </div>
+
+                <div class="preview-container">
+                  <img
+                    src="assets/styles/images/view3center.png"
+                    class="preview-image"
+                    alt="Preview of third view"
+                  />
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <!--view/slide 3-->
+                <div class="preview-container">
+                  <img
+                    src="assets/styles/images/view2center.png"
+                    class="preview-image"
+                    alt="Preview of second view"
+                  />
+                </div>
+
+                <div class="image-wrapper">
+                  <a href="html/project3.html">
+                    <img
+                      src="assets/styles/images/view3center.png"
+                      class="center-image view3-center"
+                      alt="Computer screen with project Tastescape"
+                    />
+                    <img
+                      src="assets/styles/images/view3shadow.png"
+                      class="center-image hover-view view3-hover"
+                      alt="Computer screen with orange shadow"
+                    />
+                  </a>
+                </div>
+
+                <div class="preview-container">
+                  <img
+                    src="assets/styles/images/view1center.png"
+                    class="preview-image"
+                    alt="Preview of first view"
+                  />
+                </div>
+              </li>
+            </ul>
+            <button class="carousel-btn-next">
+              <img
+                src="assets/styles/images/next.png"
+                alt="Next Slide gray arrow"
+              />
+              <!--pil till höger-->
+            </button>
+          </div>
+        </section>
+
+        <hr />
+        <hr />
+        <!--skills-->
+        <div class="skills">
+          <ul>
+            <li class="tech-skill">HTML + CSS</li>
+            <li class="tech-skill">JavaScript</li>
+            <li class="tech-skill">Bootstrap</li>
+            <li class="tech-skill">SEO</li>
+          </ul>
+          <ul>
+            <li class="skill">Adobe Creative Suite</li>
+            <li class="skill">Graphic Design</li>
+            <li class="skill">Wireframing and Prototyping</li>
+          </ul>
+        </div>
+        <hr />
+        <hr />
+      </main>
+      <footer id="footer">
+        <h3>Let's get in touch!</h3>
+        <div class="socials">
+          <a href="mailto:donnasallobiz@gmail.com">
+            <img
+              src="assets/styles/images/logos/gmail.png"
+              alt="round gmail logo"
+            />
+          </a>
+          <a href="https://github.com/donnasallo" target="_blank">
+            <img
+              src="assets/styles/images/logos/github.png"
+              alt="round github logo"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/donna-sallo" target="_blank">
+            <img
+              src="assets/styles/images/logos/linkedin.png"
+              alt="round linkedin logo"
+            />
+          </a>
+          <a href="https://www.instagram.com/donnasallo/" target="_blank">
+            <img
+              src="assets/styles/images/logos/instagram.png"
+              alt="round instagram logo"
+            />
+          </a>
+        </div>
+
+        <p>&copy; 2023 Designed by Donna Sallo. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="assets/js/greeting.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/hamburger.js"></script>
+  </body>
+</html>
